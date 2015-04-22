@@ -1,1 +1,1 @@
-[] execVM "custom\briefing.sqf";
+[] execVM "briefing.sqf";
