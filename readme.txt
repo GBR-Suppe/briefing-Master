@@ -1,3 +1,12 @@
-briefing example by GBR Suppe
+Briefing example for Arma3 Epoch Mod, by GBR Suppe
 
-edit it !
+Install:
+- Copy the briefing.sqf in your epoch.Mission.
+
+- Add to your init: 
+  [] execVM "briefing.sqf";
+
+  and edit the briefing !!!
+  
+  
+  GBR Suppe

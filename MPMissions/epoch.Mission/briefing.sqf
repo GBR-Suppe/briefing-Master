@@ -1,6 +1,4 @@
-// Server Briefing
-// GBR Suppe editon 
-// just an example...edit it !
+// Server Briefing by GBR Suppe // just an example...edit it !
 
 if (!hasInterface) exitWith {};
 
@@ -9,20 +7,19 @@ waitUntil {isNuLL(uiNameSpace getVariable ["EPOCH_loadingScreen",displayNull])};
 
 player createDiarySubject ["menu1","SERVERNAME"];
 player createDiarySubject ["menu2","Epoch Tips"];
-player createDiarySubject ["menu3","Custom Crafting"];
-player createDiarySubject ["menu4","Epoch Controls"];
+player createDiarySubject ["menu3","Epoch Controls"];
 
 
 player createDiaryRecord ["menu1",
 ["Server Rules","<br/>
 
-NO Spawn camping<br/>
-No Base glitching, item duping, exploiting or bug-abusing<br/>
-No Talk over Radio<br/>
-No Combatlog<br/>
-No droping Vehicles on Bases<br/>
-NO Harrasment/Griefing!<br/>
-Try to keep it friendly<br/><br/>
+RULE 1<br/>
+RULE 2<br/>
+RULE 3<br/>
+RULE 4<br/>
+RULE 5<br/>
+RULE 6<br/>
+RULE 7<br/><br/>
 "]];
 
 player createDiaryRecord ["menu1",
@@ -31,23 +28,11 @@ player createDiaryRecord ["menu1",
 All 4 Hours restart<br/>
 3 Hours Daytime, 1 Hour Nighttime<br/><br/>
 
-AI Missions (SAM and VEMF)<br/>
-Helicopter Parachute Supply Drop<br/>
-Loot in every Building (Arma2 Buildings too)<br/>
-Dynamic Itemspawn<br/>
-Random Spawnpoints (optional)<br/><br/>
-
-We've reduced the cost of dying from 100 to 50 Crypto<br/>
-We've increased the vehicle spawns to 250+<br/>
-We've doubled the decay time, maintain your base every 14 days not 7 days<br/>
-We've increased the AI enemy spawns<br/><br/>
-
-JSRS 3 Dragon Fyre is allowed (optional)<br/><br/>
-
-Zupa's Hud and Hud Builder<br/><br/>
-
-                Costum Map:<br/>
-More A3 Buildings, more churches, new built-up areas<br/><br/>
+FEATURE 1<br/>
+FEATURE 2<br/>
+FEATURE 3<br/>
+FEATURE 4<br/>
+FEATURE 5<br/><br/>
 "]];
 
 player createDiaryRecord ["menu1",
@@ -82,7 +67,6 @@ If the trading function does not work properly, a relog should fix this issue.<b
 
 Traders can be killed.<br/><br/>
 
-Yellow marked:    Special Trader<br/>
 Brown marked:     Trader<br/>
 Red marked:       Dead Trader<br/>
 Green marked:     Fresh Trader<br/>
@@ -108,8 +92,6 @@ When you die, your Crypto/Money will fall to the ground in the form of an iPhone
 player createDiaryRecord ["menu2",
 ["Epoch AI spawn","<br/>
 
-We have reduced the spawn rate, but still:<br/><br/>
-
 UAV's and sappers will spawn on top of player that stay still or in the same zone.<br/><br/>
 
 Sappers are spawned more if you are soiled and drones spawn more if you fire your weapon in a city less if using a silencer.<br/><br/>
@@ -122,57 +104,19 @@ player createDiaryRecord ["menu2",
 
 You can not build without a jammer.<br/><br/>
 
-250 objects can be built within range of a jammer.<br/><br/>
+EDITMETOANUMBER objects can be built within range of a jammer.<br/><br/>
 
-Jammer range is 150 meters.<br/><br/>
+Jammer range is EDITMETOANUMBER meters.<br/><br/>
 
 You cant build near Military.<br/>
-200 meter radius of blocked area around Military.<br/><br/>
+EDITMETOANUMBER meter radius of blocked area around Military.<br/><br/>
 
-Server Building Limit: 8000 objects.<br/><br/>
+Server Building Limit: EDITMETOANUMBER objects.<br/><br/>
 
 Limit/Range could also change again !<br/><br/>
 "]];
 
-player createDiaryRecord ["menu2",
-["Hud Builder","<br/>
-
-Zupas Hud and Hud Builder:<br/>
-Press 8 fast enough after Login or Relog to open the Hud Builder.<br/>
-After about 10 seconds Ingame, blocked the anti-hack the Buildermenu for Players.<br/>
-We are working on a solution.<br/><br/>
-
-Hud Builder Future plans:<br/><br/>
-    -Opacity on images.<br/>
-    -More options.<br/>
-    -Saving to redis.<br/>
-    -Config to allow hud builder or to disable it.<br/>
-    -Define your own keybinds.<br/><br/>
-"]];
-
 player createDiaryRecord ["menu3",
-["Custom Crafting","<br/>
-
-On our Servers you have the possibility to craft more Objects or Items.<br/>
-
-Example: Double click on ItemScrap or ElectronicComponent.<br/><br/>
-
-Craftlist:<br/>
-NVGs =    ItemScraps 1 + Binocular 1 + ElectronicComponent 1 + near Fire<br/><br/>
-
-optic_LRPS = ItemScraps 2 + Binocular 1 + near Fire<br/>
-optic_tws = ItemScraps 2 + Rangefinder 1 + ElectronicComponent 1 + near Fire<br/><br/>
-
-Vest 10 = Pelt_EPOCH 1 + ItemRope 1<br/>
-Vest 30 = Pelt_EPOCH 2 + ItemRope 2 + ItemScraps 1 + near Fire<br/>
-Vest 39 = Pelt_EPOCH 2 + ItemRope 2 + ItemCorrugated 1 + near Fire<br/><br/>
-
-Binoculars and Rangefinder must be in the inventory, not equipped.<br/><br/>
-
-It is only the beginning, we will add more.<br/><br/>
-"]];
-
-player createDiaryRecord ["menu4",
 ["Epoch Controls","<br/>
 
 CTRL + ß regulate volume level down<br/>
@@ -189,13 +133,9 @@ Inventorykey: On a Telephone Box or ATM to store Krypto<br/><br/>
 
 CTRL + T: Start trading with player<br/>
    T:     Accept the trade<br/><br/>
-
-Only few seconds after login:<br/>
-8: for Hud Builder <br/>
-9: to toggle Hud on or of<br/><br/>
 "]];
 
-player createDiaryRecord ["menu4",
+player createDiaryRecord ["menu3",
 ["Building Controls","<br/>
 
 1:      enable and disable the Snap Building Mode<br/>
