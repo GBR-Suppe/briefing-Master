@@ -12,4 +12,4 @@ Install:
 - Edit the briefing.sqf !!!
   
   
-  GBR Suppe
+  Suppe
